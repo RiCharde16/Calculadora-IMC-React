@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #099;
+}
+table{
+  margin: 0px auto;
+  border: 1px solid #000;
+}
+table td{
+  padding: 10px;
+}
+table thead{
+  background-color: #123;
+/*   padding: 15px; */
+  color: #f0f;
+}
+table thead tr th{
+  padding: 20px;
+}
+table tbody tr:nth-child(2n+1){
+  background-color: #ddd;
+}
+table tbody tr{
+  color: #007;
+  background-color: #fff;
+}
+section{
+  margin: 15px auto;
+  border: 1px solid #000;
+  width: 250px;
+  height: 100px;
+  padding: 15px;
+  text-align: center;
+  background-color: #fe9;
+}
+label{
+  font-weight: bold;
+}
+section h3{
+  text-transform: uppercase;
+  color: #333;
+}
+#imc{
+  font-weight: 900;
+  color: #000;
+  border: 1px solid #000;
+  transition: 1s ease-in-out
+  padding: 5px 2px;
+}
+section input{
+  margin: 0px;
+  padding: 2px;
+}
+section input:nth-child(3){
+  background-color: #000;
+}
+button{
+  margin: 10px;
+  width: 100px;
+  border: 0.5px solid #000;
+  border-radius: 10px;
+  background-color: #007;
+  color: #fff;
+  cursor:pointer;
+  transition: 1s ease-in-out;
+}
+button:hover{
+  color: purple;
+  background: #fff;
+}
