@@ -2,7 +2,7 @@
   "name": "react-typescript",
   "version": "1.0.0",
   "type": "module",
-   "homepage": "http://mywebsite.com/relativepath",
+   "homepage": "http://RiCharde16/Calculadora-IMC-React",
   "description": "React TypeScript on Replit, using Vite bundler",
   "scripts": {
     "dev": "vite",
